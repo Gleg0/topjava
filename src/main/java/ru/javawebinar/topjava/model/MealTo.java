@@ -9,6 +9,8 @@ public class MealTo {
 
     private final int calories;
 
+//    private final Supplier<Boolean> excess;
+//    private final AtomicBoolean excess;
     private final boolean excess;
 
     public MealTo(LocalDateTime dateTime, String description, int calories, boolean excess) {
